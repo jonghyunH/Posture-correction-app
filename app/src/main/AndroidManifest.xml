@@ -13,14 +13,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ExpertVideo">
+        <activity android:name=".ExpertVideo"/>
+        <activity android:name=".CameraUpload"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".RecommendActivity"/>
+        <activity android:name=".Result">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".CameraUpload">
-
         </activity>
 
 
